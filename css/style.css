@@ -1,0 +1,286 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.fon {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+.header {
+  text-align: center;
+  padding: 5px;
+  margin-top: 80px;
+  margin-bottom: 81px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.link {
+  text-decoration: none;
+  padding: 2px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.38px;
+  color: #005bbb;
+  margin: 0 76px;
+}
+.link:hover {
+  color: #ffd500;
+  text-decoration: underline;
+}
+.gallery {
+  margin: 0 80px 80px;
+}
+.gallery img {
+  width: 400px;
+  margin: 0 auto;
+  left: 0;
+  border-left-width: 12px;
+  border-left-style: solid;
+  border-image: linear-gradient(to bottom, #005bbb 50%, #ffd500 50%) 1 1;
+  background-color: #005bbb33 20%;
+}
+.slick-dots {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+li::marker {
+  color: #ffffff;
+}
+.slick-dots button {
+  background-color: #ffffff;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-color: #005bbb;
+  margin-right: 16px;
+}
+.slick-dots .slick-active button {
+  background-color: #005bbb;
+  color: #005bbb;
+}
+.description {
+  max-width: 1024px;
+  padding: 2px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39.2px;
+  color: #005bbb;
+  margin: 0 auto 80px;
+}
+.paragraph {
+  display: block;
+  margin-bottom: 20px;
+}
+.item {
+  max-width: 1024px;
+  padding: 2px;
+  margin: 0 auto 40px;
+}
+a {
+  text-decoration: none;
+  display: block;
+  padding: 16px;
+  font-family: "Montserrat";
+  font-size: 40px;
+  line-height: 48.76px;
+  letter-spacing: 0.06em;
+  color: #005bbb;
+  font-weight: 900;
+  text-align: center;
+}
+a:hover {
+  color: #ffd500;
+  text-decoration: underline;
+}
+.item::before {
+  content: "";
+  max-width: 1024px;
+  background-color: #005bbb;
+  height: 0.1em;
+  display: block;
+}
+.item::after {
+  content: "";
+  max-width: 500px;
+  background-color: #005bbb;
+  height: 0.1em;
+  margin: 0 auto;
+  display: block;
+}
+.content {
+  display: flex;
+  max-width: 1040px;
+  margin: 0 auto 80px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.article {
+  width: 497px;
+  height: 394px;
+  background: #005bbb;
+  border-left: 10px solid #ffd500;
+  padding: 40px;
+  color: #fff;
+  flex: 0 1 500px;
+  margin: 0 10px 28px;
+  display: flex;
+  align-items: center;
+}
+.article p {
+  margin: 0;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.2px;
+}
+.date {
+  font-size: 48px;
+  line-height: 67.2px;
+}
+.footer {
+  margin-bottom: 160px;
+}
+.form {
+  margin: 0 auto;
+  max-width: 1024px;
+  height: 120px;
+  border: 0.1em solid;
+  border-color: #005bbb;
+}
+
+.text {
+  width: 500px;
+  height: 22px;
+  border: #fff;
+
+  height: 22px;
+  margin: 49px auto 49px 30px;
+}
+.bt {
+  width: 200px;
+  height: 60px;
+  background-color: #005bbb;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-left: 250px;
+  border: #005bbb;
+  cursor: pointer;
+}
+.bt:hover {
+  background-color: #ffd500;
+  color: #005bbb;
+}
+input::placeholder {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.94px;
+  color: #005bbb;
+  opacity: 50%;
+}
